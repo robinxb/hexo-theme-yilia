@@ -2,19 +2,19 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  文章列表: /archives
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/robinxb"
+  weibo: "http://weibo.com/robin1991"
+  rss: "/atom.xml"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
-  #mail: "mailto:litten225@qq.com"
+  #mail: ""
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -46,24 +46,25 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: https://dn-fancycoding.qbox.me/cdfb1ea5885d92c1b89cdd5b8c887cd6.png
 # 微信二维码图片地址
-weixin: 
+weixin: https://dn-fancycoding.qbox.me/98974a332ce4e22eaa3632777166a287.png
 
 # Miscellaneous
-baidu_analytics: ''
+
+baidu_analytics: 8c67224b90c2122e0df473510e1f2564
 google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: "https://dn-fancycoding.qbox.me/head.png"
 
 #是否开启分享
 share_jia: true
 
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: false
+duoshuo: "fancycoding"
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -83,16 +84,11 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
+  innerArchive: '查找'
   friends: '友链'
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  itxuye: http://www.itxuye.com
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 90后重庆人，被代码黏在了广州，做游戏，玩游戏，在快乐中成长。
